@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- favicon -->
+	<link rel="icon" type="image" href="src/Icon.png">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+	<title>Quick-UI</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Laila:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="main-container">
+		<!-- -------------------------HAMBURGER NAV----------------- -->
+
+		<div class="hamburger-nav ">
+			<label for="navi-toggle" class="hamburger__button">
+				<span class="hamburger__icon">&nbsp;</span>
+			</label>
+			<div class="hamburger__background">&nbsp;</div>
+			<nav class="hamburger__nav">
+				<ul class="hamburger__list invisible">
+
+					<li class="hamburger__item">
+						<a target="blank" href="https://github.com/rajeshsahu02/"
+							class="hamburger__link">Github</a>
+					</li>
+					<li class="hamburger__item">
+						<a target="blank" href="https://www.linkedin.com/in/rajesh-sahu-7b943a199/"
+							class="hamburger__link">LinkedIn</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- -------------------------NAVGATION BAR----------------- -->
+
+		<div class="home-nav navigation u-margin-bottom-small ">
+			<div class="navigation__items--1">
+				<div class="logo-box"><span >Quick</span> <span
+						class="color-primary logo-secondary">UI</span></div>
+
+				<a class="navigation__items navigation-items--1-links" href="./index.html">Home</a>
+				<a class="navigation__items navigation-items--1-links" href="./documentation.html">Docs</a>
+			</div>
+			<div class="navigation__items--2">
+
+				<a target="blank" href="https://github.com/rajeshsahu02/"
+					class="navigation__items navigation__items-icons"> <i class=" fab fa-github"></i>
+				</a>
+
+				<a target="blank" href="https://www.linkedin.com/in/rajesh-sahu-7b943a199/"
+					class="navigation__items navigation__items-icons"> <i class=" fab fa-linkedin"></i>
+				</a>
+
+			</div>
+		</div>
+		<!-- -------------------------Header----------------- -->
+		<div class="cl-wrapper">
+
+		</div>
+		<header class="header u-margin-bottom-small">
+			<!-- Header Text Box -->
+			<div class="header__items header__text-box">
+				
+				<h1 class="header-primary">
+					<span class="heading-1 bold-3"> Build Your <span id="color-change" class="color-primary">UI</span>
+						Faster </span>
+				</h1>
+				<p id="sub-title">Quick-UI is a lightweight CSS framework to design and build your web apps faster using pre-defined reusable componenets.</p>
+				<div class="header-links">
+					<a class="btn btn-primary btn-lg" href="./documentation.html">Documentation</a>
+					<a href="#installation" class="btn btn-secondary btn-lg">Installation</a>
+				</div>
+			</div>
+			<!-- Header Text Image -->
+
+			<!-- <div class="header__items header__img-box">
+				<img class="header-img" src="./src/h5.svg" alt="" />
+			</div> -->
+		</header>
+
+		<section class="installation u-margin-bottom-small" id="installation">
+			<div class="installation__items installation__text-box">
+				<h1 class="installation-primary">
+					<span class="heading-2 bold-1"> Installation </span>
+
+					<p class="p-1 bold-0">
+						Copy and paste the code in the head tag of your html document.
+						<br />
+						<br />
+					</p>
+				</h1>
+
+			</div>
+			<!-- installation Text Image -->
+
+			<div class="installation__items installation__img-box">
+				
+				<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=https%253A%252F%252Fquick-ui.netlify.app%252Fcomponent.css"
+  style="width: 100%;  border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe></div>
+		</section>
+		<!-- installation Text Image -->
+
+		<footer class="footer flex-col-center bold">
+			<div class="footer__text-box">
+				Created by <span class="color-primary">Rajesh Sahu</span> 
+			</div>
+			<div class="footer__icons-box">
+
+				<a href="https://github.com/rajeshsahu02/"
+					class=" footer__items footer__items-icons"> <i class=" fab fa-github"></i></a>
+				
+				<a href="https://www.linkedin.com/in/rajesh-sahu-7b943a199/" class=" footer__items footer__items-icons"> <i
+						class=" fab fa-linkedin"></i></i></a>
+			</div>
+			<div class="footer__copyright-box">
+				 Quick-<span class="color-primary">UI</span>
+			</div>
+		</footer>
+	</div>
+	<script src="./script.js"></script>
+	<script src="./css/components/hamburger.js"></script>
+</body>
+
+</html>
